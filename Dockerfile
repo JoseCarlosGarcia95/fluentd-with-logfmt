@@ -1,4 +1,4 @@
-ARG FLUENTD_VERSION="v4.7.1"
+ARG FLUENTD_VERSION="v4.2.3"
 FROM quay.io/fluentd_elasticsearch/fluentd:${FLUENTD_VERSION}
 
 RUN gem install fluent-plugin-parser-logfmt
